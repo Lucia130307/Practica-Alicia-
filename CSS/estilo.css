@@ -1,0 +1,121 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+
+    font-family: "Comic Relief", system-ui;
+}
+header{
+    width: 1366px;
+    height: 150px;
+    background-color: rgb(224, 235, 254);
+    margin: 0 auto;
+    text-align: center
+}
+header img{
+    height: 100%;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: rgb(157, 189, 250);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    overflow: hidden;
+    margin: 0 auto;
+}
+nav a{
+    color: rgb(67, 56, 141);
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: .5s;
+
+    font-family: "Emilys Candy", serif;
+}
+nav a:hover{
+    background-color: rgb(78, 124, 251);
+    color: aliceblue;
+    transform: scale(1.2);
+}
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: rgba(233, 205, 241, 0.615);
+    margin: 0 auto;
+    
+    background-image: url(../Imgs/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*deberia ser ../imgs*/
+}
+main a{
+    color: rgb(154, 19, 149);
+    text-decoration: none;
+}
+.personaje{
+    width: 1300px;
+    height: 400px;
+    /*background-color: rgb(239, 210, 239);*/
+    margin-left: 33px;
+    margin-top: 80px;
+    display: inline-block;
+    
+}
+.foto{
+    width: 400px;
+    height: 400px;
+    /*background-color: rgb(147, 147, 231);*/
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+    border-bottom: 6px solid rgb(172, 208, 255);
+}
+.foto img{
+    height: 100%;
+
+}
+.info{
+    width: 800px;
+    height: 400px;
+    background-color: rgba(251, 244, 199, 0.74);
+    float: left;
+    margin-left: 33px;
+    padding: 30px;
+    color: rgb(30, 57, 92);
+}
+.info h3{
+    font-size: 1.8rem;
+    margin: 20px 0;
+    font-family: "Emilys Candy", serif;
+    color: rgb(43, 43, 125);
+}
+
+footer{
+    width: 1366px;
+    height: auto;
+    background-color: rgb(17, 37, 128);
+    margin: 0 auto;
+    color: rgb(155, 202, 243);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+footer a{
+    display: block;
+    color: rgb(190, 159, 237);
+    text-decoration: none;
+    padding: 10px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer img{
+    height: 80%;
+    
+}
